@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "design-patterns-python"
+version = "0.0.0"
+description = "Study repository for practicing design patterns"
+authors = ["mdcg"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+black = "^22.12.0"
+pytest-cov = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
