@@ -1,5 +1,5 @@
-from creational.factory_method.logistics.sea_logistic import SeaLogistic
 from creational.factory_method.logistics.air_logistic import AirLogistic
+from creational.factory_method.logistics.sea_logistic import SeaLogistic
 
 
 def process(logistic_type):
