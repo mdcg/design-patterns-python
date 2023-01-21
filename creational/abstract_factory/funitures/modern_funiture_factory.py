@@ -6,10 +6,10 @@ from creational.abstract_factory.tables.modern_table import ModernTable
 
 class ModernFunitureFactory(FunitureInterface):
     def create_chair(self) -> ModernChair:
-        return ModernTable()
+        return ModernChair()
 
     def create_sofa(self) -> ModernSofa:
         return ModernSofa()
 
     def create_table(self) -> ModernTable:
-        return ModernSofa()
+        return ModernTable()

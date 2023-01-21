@@ -6,7 +6,7 @@ from creational.abstract_factory.tables.victorian_table import VictorianTable
 
 class VictorianFunitureFactory(FunitureInterface):
     def create_chair(self) -> VictorianChair:
-        return VictorianTable()
+        return VictorianChair()
 
     def create_sofa(self) -> VictorianSofa:
         return VictorianSofa()
