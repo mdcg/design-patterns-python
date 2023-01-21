@@ -19,5 +19,5 @@ tests-coverage-html-server:
 	python -m http.server 8000 -d htmlcov
 
 format:
-	isort creational tests
+	isort -l 120 creational tests
 	black -l 120 . --exclude env
